@@ -18,12 +18,11 @@ p {
   
   a, a:hover, a:focus {
     transition: all 0.3s; }
-  
+
   .section-header {
     color: #202020;
     background: linear-gradient(135deg, #202020, #202020 150px, #f3f7f8 150px);
     border-top: 5px solid #202020;
-    /* border-left: 1px solid #2c3e50; */
     transform: translateX(-30px);
     margin-bottom: 3s0px;
     clear: both; }
@@ -171,8 +170,8 @@ hr {
     .skills__content {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around; }
+  flex-wrap: wrap;}
+  
   .skills__card {
   margin: 0 15px 30px; }
   .skills__card img {
@@ -202,6 +201,9 @@ hr {
       width: 100%;
       padding: 0 100px;
       transform: none; } }
-
-
+      
+      .main img,
+      .main p1{
+         margin-left: 20px;
+         margin-top: none;
 /*# sourceMappingURL=main.css.map */
